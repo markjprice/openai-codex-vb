@@ -1,0 +1,14 @@
+{
+  "name": "guess-my-number",
+  "version": "1.0.0",
+  "description": "A command-line game: guess the secret number with Higher and Lower hints.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT"
+}

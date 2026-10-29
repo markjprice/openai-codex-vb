@@ -1,0 +1,7 @@
+node_modules/
+
+# Each player's best scores belong to them, so Git doesn't save them.
+best-scores.json
+
+.DS_Store
+Thumbs.db

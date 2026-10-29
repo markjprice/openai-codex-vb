@@ -1,0 +1,15 @@
+Task: [One sentence that starts with an action verb and says what should exist or be different afterward.]
+
+Context: [Who you are, what the product is (for example, "Follow PRODUCT-BRIEF.md"), what already exists, and any reference files in this folder.]
+
+Limits:
+- [Which files or folders Codex may change.]
+- [Which files Codex must not change.]
+- [Tools or packages Codex may or may not use.]
+
+Done when:
+- [Something Codex can run or see, such as "npm test reports that all tests pass."]
+- [Another check, such as "npm start shows the title, then exits without an error."]
+- You've summarized what changed in plain language.
+
+Before you start, list anything that's unclear or missing and wait for my answers.

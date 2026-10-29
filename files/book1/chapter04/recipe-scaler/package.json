@@ -1,0 +1,17 @@
+{
+  "name": "recipe-scaler",
+  "version": "1.0.0",
+  "description": "Scales a recipe's ingredients up or down for a different number of servings.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "picocolors": "^1.1.1"
+  }
+}

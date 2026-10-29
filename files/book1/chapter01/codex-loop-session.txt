@@ -1,0 +1,32 @@
+Chapter 1.1 – Try it now: Label the stages of the Codex loop
+
+Next to each line, write the stage it belongs to:
+Instruct, Inspect, Plan, Change, Run, Check, or Report.
+Circle the line where Codex found a mistake on its own.
+Underline anything in the report you would want to decide about before keeping the change.
+
+Stage          Line
+-------------  ---------------------------------------------------------------
+_____________  You: Add a "Clear" button that empties the list. Stop when the
+               button works.
+
+_____________  Codex: Reading index.html and list.js to find the existing list.
+
+_____________  Codex: I'll add a button below the list and a function that
+               removes every item.
+
+_____________  Codex: Edited index.html: added a Clear button.
+
+_____________  Codex: Edited list.js: added clearList() and connected it to the
+               button.
+
+_____________  Codex: Running the tests... 1 test failed: the list still shows
+               one item.
+
+_____________  Codex: The loop stopped one item early. Fixed list.js.
+
+_____________  Codex: Running the tests... all 4 tests passed.
+
+_____________  Codex: Done. I added a Clear button and a clearList() function.
+               I didn't add a confirmation message, so clicking Clear by
+               accident empties the list.

@@ -1,0 +1,6 @@
+# Packages are downloaded again by "npm install", so Git doesn't need to save them.
+node_modules/
+
+# Files created by the operating system
+.DS_Store
+Thumbs.db

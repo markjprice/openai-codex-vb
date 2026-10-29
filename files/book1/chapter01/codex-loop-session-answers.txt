@@ -1,0 +1,37 @@
+Chapter 1.1 – Try it now: Suggested answers
+
+Some lines could reasonably belong to more than one stage. What matters is
+that you can see the loop: Codex changes something, runs it, checks the
+result, and goes back when the check fails.
+
+Stage     Line
+--------  --------------------------------------------------------------------
+Instruct  You: Add a "Clear" button that empties the list. Stop when the
+          button works.
+
+Inspect   Codex: Reading index.html and list.js to find the existing list.
+
+Plan      Codex: I'll add a button below the list and a function that removes
+          every item.
+
+Change    Codex: Edited index.html: added a Clear button.
+
+Change    Codex: Edited list.js: added clearList() and connected it to the
+          button.
+
+Run       Codex: Running the tests... 1 test failed: the list still shows one
+(Check)   item.
+          <-- CIRCLE THIS LINE: Codex found a mistake on its own.
+
+Check     Codex: The loop stopped one item early. Fixed list.js.
+(Change)  (Codex compares the result with the goal, finds the cause, and goes
+          back to the Change stage.)
+
+Run       Codex: Running the tests... all 4 tests passed.
+(Check)
+
+Report    Codex: Done. I added a Clear button and a clearList() function.
+          I didn't add a confirmation message, so clicking Clear by accident
+          empties the list.
+          <-- UNDERLINE: "I didn't add a confirmation message". Whether the
+              list needs a confirmation is a decision for you, not Codex.
