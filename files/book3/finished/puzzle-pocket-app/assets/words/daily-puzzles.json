@@ -1,0 +1,2402 @@
+[
+ {
+  "letters": "beapilc",
+  "center": "c",
+  "words": 23,
+  "pangram": "applicable"
+ },
+ {
+  "letters": "jucniot",
+  "center": "t",
+  "words": 22,
+  "pangram": "conjunction"
+ },
+ {
+  "letters": "ecitrfn",
+  "center": "n",
+  "words": 49,
+  "pangram": "interference"
+ },
+ {
+  "letters": "roelmva",
+  "center": "a",
+  "words": 45,
+  "pangram": "removal"
+ },
+ {
+  "letters": "oayrlbt",
+  "center": "t",
+  "words": 41,
+  "pangram": "laboratory"
+ },
+ {
+  "letters": "ejctnad",
+  "center": "d",
+  "words": 53,
+  "pangram": "adjacent"
+ },
+ {
+  "letters": "oedbgnl",
+  "center": "l",
+  "words": 60,
+  "pangram": "belonged"
+ },
+ {
+  "letters": "fnisdeh",
+  "center": "h",
+  "words": 35,
+  "pangram": "finished"
+ },
+ {
+  "letters": "alimgnb",
+  "center": "b",
+  "words": 32,
+  "pangram": "blaming"
+ },
+ {
+  "letters": "nmcgoib",
+  "center": "b",
+  "words": 18,
+  "pangram": "combining"
+ },
+ {
+  "letters": "ptrbiho",
+  "center": "o",
+  "words": 28,
+  "pangram": "prohibit"
+ },
+ {
+  "letters": "bkicang",
+  "center": "g",
+  "words": 35,
+  "pangram": "backing"
+ },
+ {
+  "letters": "ztisrec",
+  "center": "c",
+  "words": 36,
+  "pangram": "criticizes"
+ },
+ {
+  "letters": "gtaerdy",
+  "center": "y",
+  "words": 28,
+  "pangram": "tragedy"
+ },
+ {
+  "letters": "eructdl",
+  "center": "l",
+  "words": 57,
+  "pangram": "lectured"
+ },
+ {
+  "letters": "tvleuan",
+  "center": "n",
+  "words": 33,
+  "pangram": "eventual"
+ },
+ {
+  "letters": "ocegail",
+  "center": "l",
+  "words": 44,
+  "pangram": "ecological"
+ },
+ {
+  "letters": "decpust",
+  "center": "t",
+  "words": 56,
+  "pangram": "suspected"
+ },
+ {
+  "letters": "usmloev",
+  "center": "v",
+  "words": 23,
+  "pangram": "volumes"
+ },
+ {
+  "letters": "erutbia",
+  "center": "a",
+  "words": 54,
+  "pangram": "attribute"
+ },
+ {
+  "letters": "ngitacp",
+  "center": "p",
+  "words": 36,
+  "pangram": "anticipating"
+ },
+ {
+  "letters": "sineagc",
+  "center": "c",
+  "words": 49,
+  "pangram": "accessing"
+ },
+ {
+  "letters": "lbekdoc",
+  "center": "c",
+  "words": 31,
+  "pangram": "blocked"
+ },
+ {
+  "letters": "ocyrtle",
+  "center": "e",
+  "words": 48,
+  "pangram": "correctly"
+ },
+ {
+  "letters": "crentau",
+  "center": "u",
+  "words": 48,
+  "pangram": "truncate"
+ },
+ {
+  "letters": "apscebk",
+  "center": "k",
+  "words": 39,
+  "pangram": "backspace"
+ },
+ {
+  "letters": "itodena",
+  "center": "a",
+  "words": 58,
+  "pangram": "antidote"
+ },
+ {
+  "letters": "eirublt",
+  "center": "t",
+  "words": 56,
+  "pangram": "rebuilt"
+ },
+ {
+  "letters": "resotkb",
+  "center": "b",
+  "words": 59,
+  "pangram": "bookstore"
+ },
+ {
+  "letters": "enitcsy",
+  "center": "y",
+  "words": 18,
+  "pangram": "necessity"
+ },
+ {
+  "letters": "apnshei",
+  "center": "i",
+  "words": 48,
+  "pangram": "happiness"
+ },
+ {
+  "letters": "atrboni",
+  "center": "i",
+  "words": 45,
+  "pangram": "abortion"
+ },
+ {
+  "letters": "irtcpen",
+  "center": "n",
+  "words": 54,
+  "pangram": "recipient"
+ },
+ {
+  "letters": "nkiowgr",
+  "center": "r",
+  "words": 29,
+  "pangram": "working"
+ },
+ {
+  "letters": "mostrpi",
+  "center": "i",
+  "words": 53,
+  "pangram": "imports"
+ },
+ {
+  "letters": "dnixegt",
+  "center": "t",
+  "words": 59,
+  "pangram": "extending"
+ },
+ {
+  "letters": "idegnsv",
+  "center": "v",
+  "words": 59,
+  "pangram": "devising"
+ },
+ {
+  "letters": "rtnceoh",
+  "center": "h",
+  "words": 43,
+  "pangram": "coherent"
+ },
+ {
+  "letters": "fiyednc",
+  "center": "c",
+  "words": 19,
+  "pangram": "deficiency"
+ },
+ {
+  "letters": "enroltc",
+  "center": "c",
+  "words": 52,
+  "pangram": "controller"
+ },
+ {
+  "letters": "nrulaty",
+  "center": "y",
+  "words": 19,
+  "pangram": "naturally"
+ },
+ {
+  "letters": "lneadcb",
+  "center": "b",
+  "words": 50,
+  "pangram": "balanced"
+ },
+ {
+  "letters": "tcdoejb",
+  "center": "b",
+  "words": 15,
+  "pangram": "objected"
+ },
+ {
+  "letters": "srtvnep",
+  "center": "p",
+  "words": 59,
+  "pangram": "prevents"
+ },
+ {
+  "letters": "answdyo",
+  "center": "o",
+  "words": 32,
+  "pangram": "nowadays"
+ },
+ {
+  "letters": "tiosngc",
+  "center": "c",
+  "words": 51,
+  "pangram": "consisting"
+ },
+ {
+  "letters": "agzoirn",
+  "center": "n",
+  "words": 60,
+  "pangram": "organizing"
+ },
+ {
+  "letters": "tnsclor",
+  "center": "r",
+  "words": 39,
+  "pangram": "controls"
+ },
+ {
+  "letters": "gandopr",
+  "center": "r",
+  "words": 25,
+  "pangram": "propaganda"
+ },
+ {
+  "letters": "rtibyal",
+  "center": "l",
+  "words": 30,
+  "pangram": "arbitrarily"
+ },
+ {
+  "letters": "xnapdie",
+  "center": "e",
+  "words": 60,
+  "pangram": "appendix"
+ },
+ {
+  "letters": "gkiecnh",
+  "center": "h",
+  "words": 27,
+  "pangram": "checking"
+ },
+ {
+  "letters": "drcseib",
+  "center": "b",
+  "words": 42,
+  "pangram": "describe"
+ },
+ {
+  "letters": "etinrgp",
+  "center": "p",
+  "words": 57,
+  "pangram": "interpreting"
+ },
+ {
+  "letters": "tisoyce",
+  "center": "e",
+  "words": 32,
+  "pangram": "society"
+ },
+ {
+  "letters": "plrabeo",
+  "center": "o",
+  "words": 49,
+  "pangram": "probable"
+ },
+ {
+  "letters": "sedrigb",
+  "center": "b",
+  "words": 50,
+  "pangram": "bridges"
+ },
+ {
+  "letters": "rpiwsho",
+  "center": "o",
+  "words": 39,
+  "pangram": "worship"
+ },
+ {
+  "letters": "oirstlc",
+  "center": "c",
+  "words": 34,
+  "pangram": "solicitor"
+ },
+ {
+  "letters": "aetrdsy",
+  "center": "y",
+  "words": 54,
+  "pangram": "yesterday"
+ },
+ {
+  "letters": "aesdlhf",
+  "center": "f",
+  "words": 37,
+  "pangram": "flashed"
+ },
+ {
+  "letters": "vearbly",
+  "center": "y",
+  "words": 35,
+  "pangram": "verbally"
+ },
+ {
+  "letters": "idoryan",
+  "center": "n",
+  "words": 21,
+  "pangram": "ordinary"
+ },
+ {
+  "letters": "legncdt",
+  "center": "t",
+  "words": 27,
+  "pangram": "neglected"
+ },
+ {
+  "letters": "ltaepcb",
+  "center": "b",
+  "words": 28,
+  "pangram": "acceptable"
+ },
+ {
+  "letters": "soratwd",
+  "center": "d",
+  "words": 42,
+  "pangram": "towards"
+ },
+ {
+  "letters": "nbelisv",
+  "center": "v",
+  "words": 48,
+  "pangram": "invisible"
+ },
+ {
+  "letters": "edspanx",
+  "center": "x",
+  "words": 17,
+  "pangram": "expands"
+ },
+ {
+  "letters": "tsaolcg",
+  "center": "g",
+  "words": 34,
+  "pangram": "catalogs"
+ },
+ {
+  "letters": "uioasvr",
+  "center": "r",
+  "words": 27,
+  "pangram": "various"
+ },
+ {
+  "letters": "gnsatic",
+  "center": "c",
+  "words": 47,
+  "pangram": "casting"
+ },
+ {
+  "letters": "astrulc",
+  "center": "c",
+  "words": 52,
+  "pangram": "structural"
+ },
+ {
+  "letters": "getofrn",
+  "center": "n",
+  "words": 40,
+  "pangram": "forgotten"
+ },
+ {
+  "letters": "dkensic",
+  "center": "c",
+  "words": 59,
+  "pangram": "sickened"
+ },
+ {
+  "letters": "tamineo",
+  "center": "o",
+  "words": 52,
+  "pangram": "nominate"
+ },
+ {
+  "letters": "iatprsu",
+  "center": "u",
+  "words": 35,
+  "pangram": "upstairs"
+ },
+ {
+  "letters": "nsugica",
+  "center": "a",
+  "words": 50,
+  "pangram": "accusing"
+ },
+ {
+  "letters": "aimveot",
+  "center": "t",
+  "words": 35,
+  "pangram": "motivate"
+ },
+ {
+  "letters": "euyarcb",
+  "center": "b",
+  "words": 26,
+  "pangram": "bureaucracy"
+ },
+ {
+  "letters": "aurnitc",
+  "center": "c",
+  "words": 24,
+  "pangram": "curtain"
+ },
+ {
+  "letters": "moiblxa",
+  "center": "a",
+  "words": 20,
+  "pangram": "mailbox"
+ },
+ {
+  "letters": "furmahl",
+  "center": "l",
+  "words": 20,
+  "pangram": "harmful"
+ },
+ {
+  "letters": "tliegnh",
+  "center": "h",
+  "words": 52,
+  "pangram": "enlighten"
+ },
+ {
+  "letters": "crolsah",
+  "center": "h",
+  "words": 39,
+  "pangram": "scholar"
+ },
+ {
+  "letters": "reducsh",
+  "center": "h",
+  "words": 50,
+  "pangram": "crushed"
+ },
+ {
+  "letters": "girpnsu",
+  "center": "u",
+  "words": 60,
+  "pangram": "pursuing"
+ },
+ {
+  "letters": "glnstih",
+  "center": "h",
+  "words": 53,
+  "pangram": "lightnings"
+ },
+ {
+  "letters": "rfocmni",
+  "center": "i",
+  "words": 17,
+  "pangram": "confirm"
+ },
+ {
+  "letters": "sbireuc",
+  "center": "c",
+  "words": 51,
+  "pangram": "subscribe"
+ },
+ {
+  "letters": "ndilgoa",
+  "center": "a",
+  "words": 51,
+  "pangram": "diagonal"
+ },
+ {
+  "letters": "oerdspg",
+  "center": "g",
+  "words": 53,
+  "pangram": "progressed"
+ },
+ {
+  "letters": "htercap",
+  "center": "p",
+  "words": 56,
+  "pangram": "chapter"
+ },
+ {
+  "letters": "irvpsec",
+  "center": "c",
+  "words": 49,
+  "pangram": "perceives"
+ },
+ {
+  "letters": "banoidg",
+  "center": "g",
+  "words": 54,
+  "pangram": "abandoning"
+ },
+ {
+  "letters": "iedgcnl",
+  "center": "l",
+  "words": 50,
+  "pangram": "declining"
+ },
+ {
+  "letters": "ymotrle",
+  "center": "e",
+  "words": 53,
+  "pangram": "remotely"
+ },
+ {
+  "letters": "anlicge",
+  "center": "e",
+  "words": 59,
+  "pangram": "canceling"
+ },
+ {
+  "letters": "mctahed",
+  "center": "d",
+  "words": 56,
+  "pangram": "matched"
+ },
+ {
+  "letters": "biygnur",
+  "center": "r",
+  "words": 30,
+  "pangram": "burying"
+ },
+ {
+  "letters": "eondfic",
+  "center": "c",
+  "words": 46,
+  "pangram": "confidence"
+ },
+ {
+  "letters": "istryho",
+  "center": "o",
+  "words": 46,
+  "pangram": "history"
+ },
+ {
+  "letters": "scearhk",
+  "center": "k",
+  "words": 44,
+  "pangram": "hackers"
+ },
+ {
+  "letters": "oeufphl",
+  "center": "l",
+  "words": 33,
+  "pangram": "hopeful"
+ },
+ {
+  "letters": "eqcosnu",
+  "center": "u",
+  "words": 29,
+  "pangram": "consequence"
+ },
+ {
+  "letters": "xtseahu",
+  "center": "u",
+  "words": 21,
+  "pangram": "exhaust"
+ },
+ {
+  "letters": "niuplot",
+  "center": "t",
+  "words": 36,
+  "pangram": "pollution"
+ },
+ {
+  "letters": "tskaepc",
+  "center": "c",
+  "words": 58,
+  "pangram": "packets"
+ },
+ {
+  "letters": "kilwgan",
+  "center": "n",
+  "words": 59,
+  "pangram": "walking"
+ },
+ {
+  "letters": "aetgpso",
+  "center": "o",
+  "words": 59,
+  "pangram": "postage"
+ },
+ {
+  "letters": "gaipnry",
+  "center": "y",
+  "words": 19,
+  "pangram": "praying"
+ },
+ {
+  "letters": "gisnahr",
+  "center": "r",
+  "words": 59,
+  "pangram": "sharing"
+ },
+ {
+  "letters": "iekndpa",
+  "center": "a",
+  "words": 33,
+  "pangram": "kidnapped"
+ },
+ {
+  "letters": "idfnego",
+  "center": "o",
+  "words": 38,
+  "pangram": "offending"
+ },
+ {
+  "letters": "artpdeu",
+  "center": "u",
+  "words": 49,
+  "pangram": "departure"
+ },
+ {
+  "letters": "aicfesn",
+  "center": "n",
+  "words": 52,
+  "pangram": "finances"
+ },
+ {
+  "letters": "tiqouna",
+  "center": "a",
+  "words": 19,
+  "pangram": "quotation"
+ },
+ {
+  "letters": "dtecaul",
+  "center": "l",
+  "words": 60,
+  "pangram": "calculated"
+ },
+ {
+  "letters": "lsiofac",
+  "center": "c",
+  "words": 41,
+  "pangram": "officials"
+ },
+ {
+  "letters": "nivoceg",
+  "center": "g",
+  "words": 31,
+  "pangram": "conceiving"
+ },
+ {
+  "letters": "hyrteap",
+  "center": "p",
+  "words": 49,
+  "pangram": "therapy"
+ },
+ {
+  "letters": "goinrtp",
+  "center": "p",
+  "words": 49,
+  "pangram": "porting"
+ },
+ {
+  "letters": "dinsvef",
+  "center": "f",
+  "words": 37,
+  "pangram": "defensive"
+ },
+ {
+  "letters": "uaytqil",
+  "center": "l",
+  "words": 15,
+  "pangram": "quality"
+ },
+ {
+  "letters": "semlpoy",
+  "center": "y",
+  "words": 24,
+  "pangram": "employees"
+ },
+ {
+  "letters": "npcsfer",
+  "center": "r",
+  "words": 45,
+  "pangram": "preferences"
+ },
+ {
+  "letters": "rtespix",
+  "center": "x",
+  "words": 22,
+  "pangram": "expertise"
+ },
+ {
+  "letters": "ytcunre",
+  "center": "e",
+  "words": 42,
+  "pangram": "century"
+ },
+ {
+  "letters": "ilaescf",
+  "center": "f",
+  "words": 48,
+  "pangram": "classifies"
+ },
+ {
+  "letters": "elsopdv",
+  "center": "v",
+  "words": 39,
+  "pangram": "develops"
+ },
+ {
+  "letters": "sghinaw",
+  "center": "w",
+  "words": 38,
+  "pangram": "washing"
+ },
+ {
+  "letters": "gnaeulo",
+  "center": "o",
+  "words": 26,
+  "pangram": "analogue"
+ },
+ {
+  "letters": "ecynorm",
+  "center": "m",
+  "words": 23,
+  "pangram": "ceremony"
+ },
+ {
+  "letters": "asingbu",
+  "center": "u",
+  "words": 33,
+  "pangram": "abusing"
+ },
+ {
+  "letters": "rdactsu",
+  "center": "u",
+  "words": 29,
+  "pangram": "custard"
+ },
+ {
+  "letters": "tiognam",
+  "center": "m",
+  "words": 55,
+  "pangram": "imagination"
+ },
+ {
+  "letters": "olyrbda",
+  "center": "a",
+  "words": 39,
+  "pangram": "broadly"
+ },
+ {
+  "letters": "ingdfol",
+  "center": "l",
+  "words": 48,
+  "pangram": "flooding"
+ },
+ {
+  "letters": "ginstdu",
+  "center": "u",
+  "words": 59,
+  "pangram": "disgusting"
+ },
+ {
+  "letters": "rfcealu",
+  "center": "u",
+  "words": 33,
+  "pangram": "careful"
+ },
+ {
+  "letters": "animgxe",
+  "center": "e",
+  "words": 32,
+  "pangram": "examining"
+ },
+ {
+  "letters": "oigtvnc",
+  "center": "c",
+  "words": 27,
+  "pangram": "convicting"
+ },
+ {
+  "letters": "agehndc",
+  "center": "c",
+  "words": 29,
+  "pangram": "changed"
+ },
+ {
+  "letters": "yontalb",
+  "center": "b",
+  "words": 28,
+  "pangram": "notably"
+ },
+ {
+  "letters": "dlairey",
+  "center": "y",
+  "words": 49,
+  "pangram": "readily"
+ },
+ {
+  "letters": "ganitrm",
+  "center": "m",
+  "words": 50,
+  "pangram": "migrating"
+ },
+ {
+  "letters": "cmdnyai",
+  "center": "i",
+  "words": 16,
+  "pangram": "dynamic"
+ },
+ {
+  "letters": "ulignrk",
+  "center": "k",
+  "words": 16,
+  "pangram": "lurking"
+ },
+ {
+  "letters": "nvipxes",
+  "center": "s",
+  "words": 54,
+  "pangram": "expensive"
+ },
+ {
+  "letters": "ditoanc",
+  "center": "c",
+  "words": 39,
+  "pangram": "indication"
+ },
+ {
+  "letters": "rvangyi",
+  "center": "i",
+  "words": 45,
+  "pangram": "varying"
+ },
+ {
+  "letters": "ntucila",
+  "center": "a",
+  "words": 34,
+  "pangram": "lunatic"
+ },
+ {
+  "letters": "utsbqen",
+  "center": "n",
+  "words": 41,
+  "pangram": "subsequent"
+ },
+ {
+  "letters": "lniuyek",
+  "center": "k",
+  "words": 17,
+  "pangram": "unlikely"
+ },
+ {
+  "letters": "tmnsirp",
+  "center": "p",
+  "words": 34,
+  "pangram": "misprint"
+ },
+ {
+  "letters": "nxegrip",
+  "center": "p",
+  "words": 32,
+  "pangram": "expiring"
+ },
+ {
+  "letters": "htlygmo",
+  "center": "o",
+  "words": 19,
+  "pangram": "mythology"
+ },
+ {
+  "letters": "tiohrsc",
+  "center": "c",
+  "words": 30,
+  "pangram": "historic"
+ },
+ {
+  "letters": "ldgrauy",
+  "center": "y",
+  "words": 18,
+  "pangram": "gradually"
+ },
+ {
+  "letters": "efrgdiu",
+  "center": "u",
+  "words": 36,
+  "pangram": "figured"
+ },
+ {
+  "letters": "edtolrv",
+  "center": "v",
+  "words": 50,
+  "pangram": "revolted"
+ },
+ {
+  "letters": "ritangp",
+  "center": "p",
+  "words": 45,
+  "pangram": "trapping"
+ },
+ {
+  "letters": "nlgripo",
+  "center": "o",
+  "words": 60,
+  "pangram": "prolonging"
+ },
+ {
+  "letters": "silurav",
+  "center": "v",
+  "words": 21,
+  "pangram": "survival"
+ },
+ {
+  "letters": "caengih",
+  "center": "h",
+  "words": 31,
+  "pangram": "enhancing"
+ },
+ {
+  "letters": "aetgbso",
+  "center": "o",
+  "words": 54,
+  "pangram": "sabotage"
+ },
+ {
+  "letters": "ocnterv",
+  "center": "v",
+  "words": 31,
+  "pangram": "convert"
+ },
+ {
+  "letters": "enduric",
+  "center": "c",
+  "words": 45,
+  "pangram": "incurred"
+ },
+ {
+  "letters": "notdspi",
+  "center": "i",
+  "words": 58,
+  "pangram": "disposition"
+ },
+ {
+  "letters": "rdngoui",
+  "center": "i",
+  "words": 60,
+  "pangram": "rounding"
+ },
+ {
+  "letters": "untroyc",
+  "center": "c",
+  "words": 21,
+  "pangram": "country"
+ },
+ {
+  "letters": "nagdito",
+  "center": "o",
+  "words": 56,
+  "pangram": "donating"
+ },
+ {
+  "letters": "restnpc",
+  "center": "c",
+  "words": 47,
+  "pangram": "percents"
+ },
+ {
+  "letters": "mrlfyoe",
+  "center": "e",
+  "words": 37,
+  "pangram": "formerly"
+ },
+ {
+  "letters": "gicextn",
+  "center": "n",
+  "words": 45,
+  "pangram": "exciting"
+ },
+ {
+  "letters": "lgonieb",
+  "center": "b",
+  "words": 59,
+  "pangram": "belonging"
+ },
+ {
+  "letters": "lartpeu",
+  "center": "u",
+  "words": 43,
+  "pangram": "perpetual"
+ },
+ {
+  "letters": "ypvroet",
+  "center": "t",
+  "words": 42,
+  "pangram": "poverty"
+ },
+ {
+  "letters": "abmsely",
+  "center": "y",
+  "words": 44,
+  "pangram": "assembly"
+ },
+ {
+  "letters": "retganm",
+  "center": "m",
+  "words": 57,
+  "pangram": "agreement"
+ },
+ {
+  "letters": "xdfrpei",
+  "center": "i",
+  "words": 42,
+  "pangram": "prefixed"
+ },
+ {
+  "letters": "ptadceh",
+  "center": "h",
+  "words": 54,
+  "pangram": "patched"
+ },
+ {
+  "letters": "rncelav",
+  "center": "v",
+  "words": 41,
+  "pangram": "relevance"
+ },
+ {
+  "letters": "upneqgi",
+  "center": "i",
+  "words": 37,
+  "pangram": "equipping"
+ },
+ {
+  "letters": "tcieaso",
+  "center": "o",
+  "words": 39,
+  "pangram": "associate"
+ },
+ {
+  "letters": "igmnakr",
+  "center": "r",
+  "words": 40,
+  "pangram": "marking"
+ },
+ {
+  "letters": "tgiyhse",
+  "center": "e",
+  "words": 52,
+  "pangram": "eyesight"
+ },
+ {
+  "letters": "lhfandu",
+  "center": "u",
+  "words": 16,
+  "pangram": "handful"
+ },
+ {
+  "letters": "sgrnaiw",
+  "center": "w",
+  "words": 40,
+  "pangram": "warnings"
+ },
+ {
+  "letters": "fliawng",
+  "center": "g",
+  "words": 56,
+  "pangram": "flawing"
+ },
+ {
+  "letters": "ponsgir",
+  "center": "r",
+  "words": 60,
+  "pangram": "proposing"
+ },
+ {
+  "letters": "bcjtsue",
+  "center": "e",
+  "words": 41,
+  "pangram": "subject"
+ },
+ {
+  "letters": "jsktaec",
+  "center": "c",
+  "words": 41,
+  "pangram": "jackets"
+ },
+ {
+  "letters": "tcirlap",
+  "center": "p",
+  "words": 23,
+  "pangram": "practical"
+ },
+ {
+  "letters": "ariyech",
+  "center": "h",
+  "words": 29,
+  "pangram": "hierarchy"
+ },
+ {
+  "letters": "enmitrc",
+  "center": "c",
+  "words": 31,
+  "pangram": "increment"
+ },
+ {
+  "letters": "ouensca",
+  "center": "a",
+  "words": 54,
+  "pangram": "announces"
+ },
+ {
+  "letters": "nyeligu",
+  "center": "u",
+  "words": 19,
+  "pangram": "genuinely"
+ },
+ {
+  "letters": "doirpev",
+  "center": "v",
+  "words": 52,
+  "pangram": "provide"
+ },
+ {
+  "letters": "peagdru",
+  "center": "u",
+  "words": 42,
+  "pangram": "upgrade"
+ },
+ {
+  "letters": "dlbreiu",
+  "center": "u",
+  "words": 58,
+  "pangram": "rebuild"
+ },
+ {
+  "letters": "eyrnlit",
+  "center": "t",
+  "words": 58,
+  "pangram": "entirely"
+ },
+ {
+  "letters": "suaenci",
+  "center": "i",
+  "words": 33,
+  "pangram": "nuisance"
+ },
+ {
+  "letters": "btiylva",
+  "center": "a",
+  "words": 25,
+  "pangram": "availability"
+ },
+ {
+  "letters": "btdoulf",
+  "center": "f",
+  "words": 15,
+  "pangram": "doubtful"
+ },
+ {
+  "letters": "leisngf",
+  "center": "f",
+  "words": 48,
+  "pangram": "feelings"
+ },
+ {
+  "letters": "srntelw",
+  "center": "w",
+  "words": 60,
+  "pangram": "newsletter"
+ },
+ {
+  "letters": "iotsmec",
+  "center": "c",
+  "words": 33,
+  "pangram": "committees"
+ },
+ {
+  "letters": "esfarwy",
+  "center": "y",
+  "words": 28,
+  "pangram": "freeways"
+ },
+ {
+  "letters": "danevgt",
+  "center": "t",
+  "words": 44,
+  "pangram": "advantage"
+ },
+ {
+  "letters": "lsveoru",
+  "center": "u",
+  "words": 41,
+  "pangram": "ourselves"
+ },
+ {
+  "letters": "anszlye",
+  "center": "e",
+  "words": 55,
+  "pangram": "analyzes"
+ },
+ {
+  "letters": "irnthgu",
+  "center": "u",
+  "words": 32,
+  "pangram": "hurting"
+ },
+ {
+  "letters": "saluidc",
+  "center": "c",
+  "words": 30,
+  "pangram": "suicidal"
+ },
+ {
+  "letters": "rltuoac",
+  "center": "c",
+  "words": 40,
+  "pangram": "calculator"
+ },
+ {
+  "letters": "dkcoren",
+  "center": "n",
+  "words": 58,
+  "pangram": "reckoned"
+ },
+ {
+  "letters": "pltexci",
+  "center": "i",
+  "words": 28,
+  "pangram": "explicit"
+ },
+ {
+  "letters": "jlauseo",
+  "center": "o",
+  "words": 19,
+  "pangram": "jealous"
+ },
+ {
+  "letters": "vltonye",
+  "center": "e",
+  "words": 36,
+  "pangram": "novelty"
+ },
+ {
+  "letters": "dgfiuon",
+  "center": "n",
+  "words": 45,
+  "pangram": "founding"
+ },
+ {
+  "letters": "eniagrf",
+  "center": "f",
+  "words": 45,
+  "pangram": "fearing"
+ },
+ {
+  "letters": "pinelrc",
+  "center": "c",
+  "words": 32,
+  "pangram": "principle"
+ },
+ {
+  "letters": "sdirubt",
+  "center": "t",
+  "words": 34,
+  "pangram": "disturb"
+ },
+ {
+  "letters": "tcnovis",
+  "center": "s",
+  "words": 51,
+  "pangram": "convictions"
+ },
+ {
+  "letters": "tduypis",
+  "center": "s",
+  "words": 30,
+  "pangram": "stupidity"
+ },
+ {
+  "letters": "eotrnay",
+  "center": "y",
+  "words": 22,
+  "pangram": "attorney"
+ },
+ {
+  "letters": "vtseriu",
+  "center": "u",
+  "words": 55,
+  "pangram": "virtues"
+ },
+ {
+  "letters": "lecraim",
+  "center": "m",
+  "words": 52,
+  "pangram": "miracle"
+ },
+ {
+  "letters": "pyctiml",
+  "center": "l",
+  "words": 15,
+  "pangram": "implicitly"
+ },
+ {
+  "letters": "lnhceag",
+  "center": "g",
+  "words": 24,
+  "pangram": "challenge"
+ },
+ {
+  "letters": "cerdnom",
+  "center": "m",
+  "words": 43,
+  "pangram": "recommend"
+ },
+ {
+  "letters": "meodcpl",
+  "center": "l",
+  "words": 51,
+  "pangram": "compelled"
+ },
+ {
+  "letters": "ueriptc",
+  "center": "c",
+  "words": 29,
+  "pangram": "picture"
+ },
+ {
+  "letters": "bisynel",
+  "center": "l",
+  "words": 50,
+  "pangram": "sensibly"
+ },
+ {
+  "letters": "utrclpi",
+  "center": "i",
+  "words": 15,
+  "pangram": "culprit"
+ },
+ {
+  "letters": "shaclen",
+  "center": "n",
+  "words": 53,
+  "pangram": "channels"
+ },
+ {
+  "letters": "uginovc",
+  "center": "c",
+  "words": 16,
+  "pangram": "unconvincing"
+ },
+ {
+  "letters": "distonc",
+  "center": "c",
+  "words": 44,
+  "pangram": "conditions"
+ },
+ {
+  "letters": "lmnthyo",
+  "center": "o",
+  "words": 26,
+  "pangram": "monthly"
+ },
+ {
+  "letters": "wbdkcra",
+  "center": "a",
+  "words": 18,
+  "pangram": "backward"
+ },
+ {
+  "letters": "iuncosl",
+  "center": "l",
+  "words": 52,
+  "pangram": "conclusion"
+ },
+ {
+  "letters": "tdraewf",
+  "center": "f",
+  "words": 54,
+  "pangram": "afterward"
+ },
+ {
+  "letters": "relmpai",
+  "center": "i",
+  "words": 57,
+  "pangram": "imperial"
+ },
+ {
+  "letters": "idpolsa",
+  "center": "a",
+  "words": 52,
+  "pangram": "disposal"
+ },
+ {
+  "letters": "trpodec",
+  "center": "c",
+  "words": 56,
+  "pangram": "protected"
+ },
+ {
+  "letters": "dlfuaet",
+  "center": "t",
+  "words": 50,
+  "pangram": "default"
+ },
+ {
+  "letters": "cmlnibg",
+  "center": "g",
+  "words": 22,
+  "pangram": "climbing"
+ },
+ {
+  "letters": "niepmtg",
+  "center": "g",
+  "words": 47,
+  "pangram": "tempting"
+ },
+ {
+  "letters": "cmtirad",
+  "center": "d",
+  "words": 19,
+  "pangram": "dramatic"
+ },
+ {
+  "letters": "tsionuc",
+  "center": "c",
+  "words": 51,
+  "pangram": "constitution"
+ },
+ {
+  "letters": "nrethao",
+  "center": "o",
+  "words": 55,
+  "pangram": "another"
+ },
+ {
+  "letters": "dropwsa",
+  "center": "a",
+  "words": 53,
+  "pangram": "password"
+ },
+ {
+  "letters": "hnegstl",
+  "center": "l",
+  "words": 42,
+  "pangram": "lengths"
+ },
+ {
+  "letters": "ickongl",
+  "center": "l",
+  "words": 51,
+  "pangram": "locking"
+ },
+ {
+  "letters": "clreiah",
+  "center": "h",
+  "words": 41,
+  "pangram": "hierarchical"
+ },
+ {
+  "letters": "ckgnuih",
+  "center": "h",
+  "words": 25,
+  "pangram": "chucking"
+ },
+ {
+  "letters": "piechsn",
+  "center": "n",
+  "words": 56,
+  "pangram": "pinches"
+ },
+ {
+  "letters": "ilpangc",
+  "center": "c",
+  "words": 30,
+  "pangram": "placing"
+ },
+ {
+  "letters": "nrutoec",
+  "center": "c",
+  "words": 59,
+  "pangram": "counter"
+ },
+ {
+  "letters": "icgenrv",
+  "center": "v",
+  "words": 44,
+  "pangram": "receiving"
+ },
+ {
+  "letters": "iposenu",
+  "center": "u",
+  "words": 41,
+  "pangram": "suspension"
+ },
+ {
+  "letters": "dvouies",
+  "center": "s",
+  "words": 58,
+  "pangram": "devious"
+ },
+ {
+  "letters": "brequoa",
+  "center": "a",
+  "words": 17,
+  "pangram": "baroque"
+ },
+ {
+  "letters": "seuhdlc",
+  "center": "c",
+  "words": 47,
+  "pangram": "schedule"
+ },
+ {
+  "letters": "upanrol",
+  "center": "l",
+  "words": 32,
+  "pangram": "unpopular"
+ },
+ {
+  "letters": "nugaoci",
+  "center": "i",
+  "words": 34,
+  "pangram": "announcing"
+ },
+ {
+  "letters": "lsecrty",
+  "center": "y",
+  "words": 23,
+  "pangram": "secretly"
+ },
+ {
+  "letters": "cdreawl",
+  "center": "l",
+  "words": 60,
+  "pangram": "crawled"
+ },
+ {
+  "letters": "nightka",
+  "center": "a",
+  "words": 34,
+  "pangram": "thanking"
+ },
+ {
+  "letters": "egdinsh",
+  "center": "h",
+  "words": 55,
+  "pangram": "shedding"
+ },
+ {
+  "letters": "lngeidu",
+  "center": "u",
+  "words": 56,
+  "pangram": "guideline"
+ },
+ {
+  "letters": "tfedaru",
+  "center": "u",
+  "words": 36,
+  "pangram": "featured"
+ },
+ {
+  "letters": "aurtnel",
+  "center": "l",
+  "words": 60,
+  "pangram": "neutral"
+ },
+ {
+  "letters": "fluitah",
+  "center": "h",
+  "words": 15,
+  "pangram": "faithful"
+ },
+ {
+  "letters": "rnmaexi",
+  "center": "i",
+  "words": 32,
+  "pangram": "examiner"
+ },
+ {
+  "letters": "aeiwdsy",
+  "center": "y",
+  "words": 29,
+  "pangram": "sideways"
+ },
+ {
+  "letters": "srimyal",
+  "center": "l",
+  "words": 58,
+  "pangram": "similarly"
+ },
+ {
+  "letters": "tvnmoia",
+  "center": "a",
+  "words": 34,
+  "pangram": "motivation"
+ },
+ {
+  "letters": "exkosbt",
+  "center": "t",
+  "words": 34,
+  "pangram": "textbooks"
+ },
+ {
+  "letters": "lcoserb",
+  "center": "b",
+  "words": 47,
+  "pangram": "cobblers"
+ },
+ {
+  "letters": "poimsng",
+  "center": "g",
+  "words": 59,
+  "pangram": "imposing"
+ },
+ {
+  "letters": "itsnglp",
+  "center": "p",
+  "words": 47,
+  "pangram": "splitting"
+ },
+ {
+  "letters": "ealucnr",
+  "center": "r",
+  "words": 58,
+  "pangram": "nuclear"
+ },
+ {
+  "letters": "napgsic",
+  "center": "c",
+  "words": 22,
+  "pangram": "spacing"
+ },
+ {
+  "letters": "rwyeodk",
+  "center": "k",
+  "words": 16,
+  "pangram": "keyword"
+ },
+ {
+  "letters": "cylahep",
+  "center": "p",
+  "words": 34,
+  "pangram": "cheaply"
+ },
+ {
+  "letters": "lanreub",
+  "center": "b",
+  "words": 56,
+  "pangram": "unbearable"
+ },
+ {
+  "letters": "incgmto",
+  "center": "o",
+  "words": 53,
+  "pangram": "committing"
+ },
+ {
+  "letters": "ulgcnid",
+  "center": "d",
+  "words": 23,
+  "pangram": "including"
+ },
+ {
+  "letters": "fdmreop",
+  "center": "p",
+  "words": 50,
+  "pangram": "performed"
+ },
+ {
+  "letters": "rwgnaip",
+  "center": "p",
+  "words": 34,
+  "pangram": "warping"
+ },
+ {
+  "letters": "enrscuh",
+  "center": "h",
+  "words": 36,
+  "pangram": "crunches"
+ },
+ {
+  "letters": "glbedio",
+  "center": "o",
+  "words": 51,
+  "pangram": "obliged"
+ },
+ {
+  "letters": "gnyiarm",
+  "center": "m",
+  "words": 35,
+  "pangram": "imaginary"
+ },
+ {
+  "letters": "sinvkeo",
+  "center": "o",
+  "words": 34,
+  "pangram": "invokes"
+ },
+ {
+  "letters": "aitnloe",
+  "center": "e",
+  "words": 59,
+  "pangram": "intentional"
+ },
+ {
+  "letters": "gneidap",
+  "center": "p",
+  "words": 60,
+  "pangram": "appending"
+ },
+ {
+  "letters": "atopeul",
+  "center": "l",
+  "words": 54,
+  "pangram": "populate"
+ },
+ {
+  "letters": "dnpretv",
+  "center": "v",
+  "words": 30,
+  "pangram": "prevented"
+ },
+ {
+  "letters": "bodsemy",
+  "center": "y",
+  "words": 21,
+  "pangram": "somebody"
+ },
+ {
+  "letters": "ecoindg",
+  "center": "g",
+  "words": 57,
+  "pangram": "decoding"
+ },
+ {
+  "letters": "rtingev",
+  "center": "v",
+  "words": 56,
+  "pangram": "intervening"
+ },
+ {
+  "letters": "arminch",
+  "center": "h",
+  "words": 19,
+  "pangram": "chairman"
+ },
+ {
+  "letters": "emorvti",
+  "center": "i",
+  "words": 45,
+  "pangram": "overtime"
+ },
+ {
+  "letters": "dnatgip",
+  "center": "p",
+  "words": 31,
+  "pangram": "adapting"
+ },
+ {
+  "letters": "brilyho",
+  "center": "o",
+  "words": 16,
+  "pangram": "horribly"
+ },
+ {
+  "letters": "egnfitc",
+  "center": "c",
+  "words": 19,
+  "pangram": "infecting"
+ },
+ {
+  "letters": "secarhg",
+  "center": "g",
+  "words": 45,
+  "pangram": "charges"
+ },
+ {
+  "letters": "cslaioy",
+  "center": "y",
+  "words": 25,
+  "pangram": "socially"
+ },
+ {
+  "letters": "ectdavi",
+  "center": "i",
+  "words": 59,
+  "pangram": "activated"
+ },
+ {
+  "letters": "icrangh",
+  "center": "h",
+  "words": 37,
+  "pangram": "charging"
+ },
+ {
+  "letters": "rahdegc",
+  "center": "c",
+  "words": 51,
+  "pangram": "charged"
+ },
+ {
+  "letters": "dovfera",
+  "center": "a",
+  "words": 44,
+  "pangram": "favored"
+ },
+ {
+  "letters": "inbwogr",
+  "center": "r",
+  "words": 40,
+  "pangram": "borrowing"
+ },
+ {
+  "letters": "tighdmn",
+  "center": "n",
+  "words": 34,
+  "pangram": "midnight"
+ },
+ {
+  "letters": "isrteak",
+  "center": "k",
+  "words": 59,
+  "pangram": "asterisk"
+ },
+ {
+  "letters": "dnighlo",
+  "center": "o",
+  "words": 42,
+  "pangram": "holding"
+ },
+ {
+  "letters": "aecrovg",
+  "center": "g",
+  "words": 25,
+  "pangram": "coverage"
+ },
+ {
+  "letters": "tehclao",
+  "center": "o",
+  "words": 43,
+  "pangram": "chocolate"
+ },
+ {
+  "letters": "etocdnm",
+  "center": "m",
+  "words": 48,
+  "pangram": "commented"
+ },
+ {
+  "letters": "ezldvic",
+  "center": "c",
+  "words": 19,
+  "pangram": "civilized"
+ },
+ {
+  "letters": "ptesivo",
+  "center": "o",
+  "words": 55,
+  "pangram": "positive"
+ },
+ {
+  "letters": "upcfael",
+  "center": "l",
+  "words": 38,
+  "pangram": "peaceful"
+ },
+ {
+  "letters": "rnimacl",
+  "center": "l",
+  "words": 32,
+  "pangram": "criminal"
+ },
+ {
+  "letters": "tlianbo",
+  "center": "o",
+  "words": 51,
+  "pangram": "abolition"
+ },
+ {
+  "letters": "noactri",
+  "center": "i",
+  "words": 60,
+  "pangram": "attraction"
+ },
+ {
+  "letters": "yarblei",
+  "center": "i",
+  "words": 32,
+  "pangram": "reliably"
+ },
+ {
+  "letters": "wgnsitr",
+  "center": "r",
+  "words": 33,
+  "pangram": "writings"
+ },
+ {
+  "letters": "anpilgu",
+  "center": "u",
+  "words": 29,
+  "pangram": "plaguing"
+ },
+ {
+  "letters": "oealprv",
+  "center": "v",
+  "words": 36,
+  "pangram": "overlap"
+ },
+ {
+  "letters": "ruepnti",
+  "center": "i",
+  "words": 59,
+  "pangram": "interrupt"
+ },
+ {
+  "letters": "gmplyni",
+  "center": "i",
+  "words": 31,
+  "pangram": "implying"
+ },
+ {
+  "letters": "nseotrg",
+  "center": "g",
+  "words": 59,
+  "pangram": "stronger"
+ },
+ {
+  "letters": "itrealu",
+  "center": "u",
+  "words": 23,
+  "pangram": "literature"
+ },
+ {
+  "letters": "athorsu",
+  "center": "u",
+  "words": 54,
+  "pangram": "authors"
+ },
+ {
+  "letters": "nruigmo",
+  "center": "o",
+  "words": 41,
+  "pangram": "rumoring"
+ },
+ {
+  "letters": "ieptnca",
+  "center": "a",
+  "words": 59,
+  "pangram": "anticipate"
+ },
+ {
+  "letters": "rfigcno",
+  "center": "o",
+  "words": 43,
+  "pangram": "forcing"
+ },
+ {
+  "letters": "teranif",
+  "center": "f",
+  "words": 49,
+  "pangram": "fainter"
+ },
+ {
+  "letters": "eontvri",
+  "center": "i",
+  "words": 53,
+  "pangram": "intervention"
+ },
+ {
+  "letters": "bodwnga",
+  "center": "a",
+  "words": 16,
+  "pangram": "bandwagon"
+ },
+ {
+  "letters": "eisctnf",
+  "center": "f",
+  "words": 49,
+  "pangram": "infects"
+ },
+ {
+  "letters": "ivonetl",
+  "center": "l",
+  "words": 49,
+  "pangram": "violent"
+ },
+ {
+  "letters": "ziptoem",
+  "center": "m",
+  "words": 24,
+  "pangram": "optimize"
+ },
+ {
+  "letters": "ulgnaso",
+  "center": "o",
+  "words": 48,
+  "pangram": "analogous"
+ },
+ {
+  "letters": "abgnird",
+  "center": "d",
+  "words": 48,
+  "pangram": "branding"
+ },
+ {
+  "letters": "pinardo",
+  "center": "o",
+  "words": 32,
+  "pangram": "paranoid"
+ },
+ {
+  "letters": "sintxec",
+  "center": "c",
+  "words": 52,
+  "pangram": "existence"
+ },
+ {
+  "letters": "amtsoun",
+  "center": "n",
+  "words": 60,
+  "pangram": "amounts"
+ },
+ {
+  "letters": "chepait",
+  "center": "t",
+  "words": 44,
+  "pangram": "apathetic"
+ },
+ {
+  "letters": "leishtg",
+  "center": "g",
+  "words": 49,
+  "pangram": "lightest"
+ },
+ {
+  "letters": "tlymopr",
+  "center": "r",
+  "words": 20,
+  "pangram": "promptly"
+ },
+ {
+  "letters": "neitcfo",
+  "center": "o",
+  "words": 49,
+  "pangram": "infection"
+ },
+ {
+  "letters": "gocuear",
+  "center": "r",
+  "words": 40,
+  "pangram": "courage"
+ },
+ {
+  "letters": "mycahrp",
+  "center": "p",
+  "words": 16,
+  "pangram": "pharmacy"
+ },
+ {
+  "letters": "oumeatd",
+  "center": "d",
+  "words": 53,
+  "pangram": "automated"
+ },
+ {
+  "letters": "egoitdb",
+  "center": "b",
+  "words": 25,
+  "pangram": "bigoted"
+ },
+ {
+  "letters": "ldetiac",
+  "center": "c",
+  "words": 58,
+  "pangram": "delicate"
+ },
+ {
+  "letters": "caesrty",
+  "center": "y",
+  "words": 38,
+  "pangram": "secretary"
+ },
+ {
+  "letters": "tkcinhe",
+  "center": "e",
+  "words": 42,
+  "pangram": "kitchen"
+ },
+ {
+  "letters": "eslomuc",
+  "center": "c",
+  "words": 30,
+  "pangram": "molecules"
+ },
+ {
+  "letters": "tonarli",
+  "center": "i",
+  "words": 56,
+  "pangram": "irrational"
+ },
+ {
+  "letters": "vrsungi",
+  "center": "i",
+  "words": 50,
+  "pangram": "surviving"
+ },
+ {
+  "letters": "fycipse",
+  "center": "e",
+  "words": 26,
+  "pangram": "specify"
+ },
+ {
+  "letters": "hldgina",
+  "center": "a",
+  "words": 47,
+  "pangram": "handling"
+ },
+ {
+  "letters": "caripef",
+  "center": "f",
+  "words": 25,
+  "pangram": "pacifier"
+ },
+ {
+  "letters": "atrlnev",
+  "center": "v",
+  "words": 43,
+  "pangram": "relevant"
+ },
+ {
+  "letters": "inmeucr",
+  "center": "r",
+  "words": 26,
+  "pangram": "numeric"
+ },
+ {
+  "letters": "imclstp",
+  "center": "p",
+  "words": 23,
+  "pangram": "simplistic"
+ },
+ {
+  "letters": "osgeinb",
+  "center": "b",
+  "words": 56,
+  "pangram": "obsessing"
+ },
+ {
+  "letters": "ehrgsib",
+  "center": "b",
+  "words": 21,
+  "pangram": "gibberish"
+ },
+ {
+  "letters": "deorgnv",
+  "center": "v",
+  "words": 38,
+  "pangram": "governed"
+ },
+ {
+  "letters": "eitfurn",
+  "center": "n",
+  "words": 56,
+  "pangram": "furniture"
+ },
+ {
+  "letters": "gyouhrl",
+  "center": "l",
+  "words": 16,
+  "pangram": "roughly"
+ },
+ {
+  "letters": "ownceal",
+  "center": "l",
+  "words": 35,
+  "pangram": "allowance"
+ },
+ {
+  "letters": "csnoteg",
+  "center": "g",
+  "words": 27,
+  "pangram": "congest"
+ },
+ {
+  "letters": "ryenlct",
+  "center": "t",
+  "words": 24,
+  "pangram": "recently"
+ },
+ {
+  "letters": "cifnaot",
+  "center": "t",
+  "words": 49,
+  "pangram": "notification"
+ },
+ {
+  "letters": "vosretc",
+  "center": "c",
+  "words": 59,
+  "pangram": "vectors"
+ },
+ {
+  "letters": "lbgstoi",
+  "center": "i",
+  "words": 47,
+  "pangram": "biologist"
+ },
+ {
+  "letters": "erzdtic",
+  "center": "c",
+  "words": 39,
+  "pangram": "criticized"
+ },
+ {
+  "letters": "xecytla",
+  "center": "a",
+  "words": 26,
+  "pangram": "exactly"
+ },
+ {
+  "letters": "jesuatd",
+  "center": "d",
+  "words": 59,
+  "pangram": "adjusted"
+ },
+ {
+  "letters": "lbogcka",
+  "center": "a",
+  "words": 22,
+  "pangram": "backlog"
+ },
+ {
+  "letters": "elsafbi",
+  "center": "i",
+  "words": 58,
+  "pangram": "feasible"
+ },
+ {
+  "letters": "raxgedt",
+  "center": "t",
+  "words": 60,
+  "pangram": "exaggerated"
+ },
+ {
+  "letters": "pnacely",
+  "center": "y",
+  "words": 18,
+  "pangram": "anyplace"
+ },
+ {
+  "letters": "raqsdeu",
+  "center": "u",
+  "words": 52,
+  "pangram": "squared"
+ },
+ {
+  "letters": "hitergf",
+  "center": "f",
+  "words": 33,
+  "pangram": "fighter"
+ },
+ {
+  "letters": "uosaixn",
+  "center": "n",
+  "words": 24,
+  "pangram": "anxious"
+ },
+ {
+  "letters": "atnioml",
+  "center": "l",
+  "words": 45,
+  "pangram": "limitation"
+ },
+ {
+  "letters": "rctousb",
+  "center": "b",
+  "words": 43,
+  "pangram": "obstruct"
+ },
+ {
+  "letters": "vuesric",
+  "center": "c",
+  "words": 50,
+  "pangram": "recursive"
+ },
+ {
+  "letters": "otilnpa",
+  "center": "a",
+  "words": 47,
+  "pangram": "optional"
+ },
+ {
+  "letters": "ycomtdi",
+  "center": "i",
+  "words": 17,
+  "pangram": "commodity"
+ },
+ {
+  "letters": "hayltwe",
+  "center": "e",
+  "words": 39,
+  "pangram": "wealthy"
+ },
+ {
+  "letters": "setnpic",
+  "center": "c",
+  "words": 55,
+  "pangram": "inspect"
+ },
+ {
+  "letters": "rinhsgu",
+  "center": "u",
+  "words": 46,
+  "pangram": "rushing"
+ },
+ {
+  "letters": "uetdrnw",
+  "center": "w",
+  "words": 19,
+  "pangram": "underwent"
+ },
+ {
+  "letters": "eahmnci",
+  "center": "i",
+  "words": 30,
+  "pangram": "machine"
+ },
+ {
+  "letters": "eonrsvg",
+  "center": "g",
+  "words": 56,
+  "pangram": "governs"
+ }
+]

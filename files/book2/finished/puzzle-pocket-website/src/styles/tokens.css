@@ -1,0 +1,54 @@
+/* Generated from design-tokens.json by npm run tokens. Don't edit this file by hand. */
+
+:root {
+  --color-primary: #0F6E6E;
+  --color-primary-strong: #0B5555;
+  --color-on-primary: #FFFFFF;
+  --color-accent: #E8833A;
+  --color-accent-soft: #FDEBDD;
+  --color-background: #FAF8F5;
+  --color-surface: #FFFFFF;
+  --color-surface-tint: #E6F2F2;
+  --color-text: #1F2328;
+  --color-text-muted: #5B626B;
+  --color-border: #6B737C;
+  --color-divider: #E2DED7;
+  --color-error: #B42318;
+  --color-success: #1E7A3E;
+  --font-body: "Atkinson Hyperlegible";
+  --font-fallback: Verdana, Arial, sans-serif;
+  --font-size-small: 16px;
+  --font-size-body: 18px;
+  --font-size-h3: 22px;
+  --font-size-h2: 28px;
+  --font-size-h1: 40px;
+  --font-size-display: 56px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+  --font-line-height-body: 1.5;
+  --font-line-height-heading: 1.2;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 16px;
+  --space-4: 24px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --radius-small: 6px;
+  --radius-card: 12px;
+  --radius-button: 999px;
+  --size-touch-target: 44px;
+  --size-icon-small: 20px;
+  --size-icon: 28px;
+  --size-icon-large: 32px;
+  --size-icon-box: 56px;
+  --size-board-square: 96px;
+  --size-mockup: 280px;
+  --size-content-width: 70ch;
+  --size-form-width: 36rem;
+  --size-page-width: 1120px;
+  --size-focus-outline: 3px;
+  --size-border-thin: 1px;
+  --size-border: 2px;
+  --size-border-thick: 4px;
+}

@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- include: page-meta title="Contact | Puzzle Pocket" description="Ask a question, report a problem, or suggest an idea for Puzzle Pocket." path="contact.html" -->
+  </head>
+  <body>
+    <!-- include: site-header -->
+
+    <main id="main">
+      <div class="prose">
+        <h1>Contact us</h1>
+        <p>
+          Ask a question, report a problem, or suggest an idea. We read every
+          message, and we only use your details to reply.
+        </p>
+      </div>
+
+      <div class="notice notice-success" tabindex="-1" data-sent hidden>
+        <p>Thanks, your message has been sent. We usually reply within three days.</p>
+      </div>
+
+      <div class="notice" tabindex="-1" data-send-failed hidden>
+        <p>
+          Your message wasn't sent. Check your internet connection and try again, or
+          email us at <a href="mailto:hello@puzzlepocket.example">hello@puzzlepocket.example</a>.
+        </p>
+      </div>
+
+      <!-- Netlify Forms finds this form when the site is published, because of
+           data-netlify="true". netlify-honeypot names the hidden spam trap field. -->
+      <form class="contact-form" name="contact" method="POST" data-netlify="true"
+            netlify-honeypot="bot-field" data-contact-form>
+        <input type="hidden" name="form-name" value="contact">
+
+        <div class="error-summary" tabindex="-1" aria-labelledby="error-summary-heading"
+             data-error-summary hidden>
+          <h2 id="error-summary-heading">There is a problem</h2>
+          <ul data-error-list></ul>
+        </div>
+
+        <p class="honeypot">
+          <label>Don't fill this out if you're human: <input name="bot-field" tabindex="-1" autocomplete="off"></label>
+        </p>
+
+        <div class="field">
+          <label for="name">Name (optional)</label>
+          <input id="name" name="name" type="text" autocomplete="name">
+        </div>
+
+        <div class="field">
+          <label for="email">Email address</label>
+          <p class="field-error" id="email-error" hidden></p>
+          <input id="email" name="email" type="email" autocomplete="email" spellcheck="false" required>
+        </div>
+
+        <div class="field">
+          <label for="topic">Topic (optional)</label>
+          <select id="topic" name="topic">
+            <option value="">Choose a topic</option>
+            <option>Question</option>
+            <option>Problem</option>
+            <option>Suggestion</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="message">Message</label>
+          <p class="field-hint" id="message-hint">Up to 2,000 characters.</p>
+          <p class="field-error" id="message-error" hidden></p>
+          <textarea id="message" name="message" rows="8" aria-describedby="message-hint" required></textarea>
+        </div>
+
+        <button type="submit" class="button" data-send>Send message</button>
+      </form>
+    </main>
+
+    <!-- include: site-footer -->
+    <script type="module" src="/src/contact/form.js"></script>
+  </body>
+</html>

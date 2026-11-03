@@ -1,0 +1,682 @@
+/* Styles for every page of the Puzzle Pocket website.
+   Every color, size, space, and corner radius comes from a design token in
+   tokens.css, which is generated from design-tokens.json. */
+
+@import './tokens.css';
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/assets/fonts/atkinson-hyperlegible-latin-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible';
+  src: url('/assets/fonts/atkinson-hyperlegible-latin-700-normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ---------- Page basics ---------- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-body), var(--font-fallback);
+  font-size: var(--font-size-body);
+  line-height: var(--font-line-height-body);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  width: 100%;
+  max-width: var(--size-page-width);
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-3) var(--space-7);
+}
+
+h1,
+h2,
+h3 {
+  line-height: var(--font-line-height-heading);
+  margin: 0 0 var(--space-3);
+}
+
+h1 {
+  font-size: var(--font-size-h1);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  margin-top: var(--space-6);
+}
+
+h3 {
+  font-size: var(--font-size-h3);
+}
+
+p,
+ul,
+ol {
+  margin: 0 0 var(--space-3);
+}
+
+li + li {
+  margin-top: var(--space-2);
+}
+
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: var(--color-primary);
+  text-underline-offset: 0.2em;
+}
+
+a:hover {
+  color: var(--color-primary-strong);
+  text-decoration-thickness: var(--size-focus-outline);
+}
+
+/* A clear focus outline for keyboard users. Never remove it. */
+:focus-visible {
+  outline: var(--size-focus-outline) solid var(--color-primary);
+  outline-offset: var(--space-1);
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.prose {
+  max-width: var(--size-content-width);
+}
+
+/* ---------- Skip link ---------- */
+
+.skip-link {
+  position: absolute;
+  left: var(--space-3);
+  top: var(--space-2);
+  z-index: 10;
+  padding: var(--space-2) var(--space-3);
+  background: var(--color-surface);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+  border-radius: var(--radius-small);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+/* ---------- Header and navigation ---------- */
+
+.site-header {
+  background: var(--color-surface);
+  border-bottom: var(--size-border-thin) solid var(--color-divider);
+}
+
+.site-nav {
+  max-width: var(--size-page-width);
+  margin: 0 auto;
+  padding: var(--space-2) var(--space-3);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2) var(--space-4);
+}
+
+.site-name {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: var(--size-touch-target);
+  color: var(--color-text);
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+}
+
+.site-name svg {
+  color: var(--color-primary);
+  width: var(--size-icon);
+  height: var(--size-icon);
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li + li {
+  margin-top: 0;
+}
+
+.nav-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--size-touch-target);
+  padding: 0 var(--space-3);
+  border-radius: var(--radius-button);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* The current page: bold, underlined, and tinted, so it doesn't rely on color alone. */
+.nav-links a[aria-current='page'] {
+  background: var(--color-surface-tint);
+  font-weight: var(--font-weight-bold);
+  text-decoration: underline;
+  text-decoration-thickness: var(--size-focus-outline);
+}
+
+/* ---------- Buttons ---------- */
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-2);
+  min-height: var(--size-touch-target);
+  padding: var(--space-2) var(--space-5);
+  border: var(--size-border) solid var(--color-primary);
+  border-radius: var(--radius-button);
+  background: var(--color-primary);
+  color: var(--color-on-primary);
+  font: inherit;
+  font-weight: var(--font-weight-bold);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: var(--color-primary-strong);
+  border-color: var(--color-primary-strong);
+  color: var(--color-on-primary);
+  text-decoration: none;
+}
+
+.button svg {
+  width: var(--size-icon-small);
+  height: var(--size-icon-small);
+}
+
+.button-secondary {
+  background: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.button-secondary:hover {
+  background: var(--color-surface-tint);
+  color: var(--color-primary-strong);
+}
+
+/* ---------- Home page ---------- */
+
+.hero {
+  display: grid;
+  gap: var(--space-5);
+  align-items: center;
+  padding: var(--space-4) 0;
+}
+
+.hero h1 {
+  font-size: var(--font-size-h1);
+  margin-bottom: var(--space-2);
+}
+
+.tagline {
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+
+.hero-text p {
+  max-width: var(--size-content-width);
+}
+
+.hero-text .button {
+  margin-top: var(--space-2);
+}
+
+/* A decorative noughts and crosses grid. Screen readers skip it. */
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-2);
+  width: min(100%, var(--size-mockup));
+  justify-self: center;
+}
+
+.hero-grid span {
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+  border: var(--size-border) solid var(--color-divider);
+  font-size: var(--font-size-h1);
+  font-weight: var(--font-weight-bold);
+  color: var(--color-text);
+}
+
+.hero-grid .is-o {
+  color: var(--color-primary);
+}
+
+.hero-grid .is-highlight {
+  background: var(--color-accent-soft);
+}
+
+.puzzle-list {
+  display: grid;
+  gap: var(--space-4);
+  list-style: none;
+  padding: 0;
+}
+
+.puzzle-card {
+  margin: 0;
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: var(--size-border-thin) solid var(--color-divider);
+  border-radius: var(--radius-card);
+}
+
+.puzzle-list li + li {
+  margin-top: 0;
+}
+
+.puzzle-card p {
+  margin: 0;
+}
+
+.puzzle-icon {
+  display: inline-grid;
+  place-items: center;
+  width: var(--size-icon-box);
+  height: var(--size-icon-box);
+  margin-bottom: var(--space-3);
+  border-radius: var(--radius-card);
+  background: var(--color-surface-tint);
+  color: var(--color-primary);
+}
+
+.puzzle-icon svg {
+  width: var(--size-icon-large);
+  height: var(--size-icon-large);
+}
+
+.mockup-list {
+  display: grid;
+  gap: var(--space-5);
+}
+
+.mockup {
+  margin: 0;
+  text-align: center;
+}
+
+.mockup img {
+  display: block;
+  width: 100%;
+  max-width: var(--size-mockup);
+  margin: 0 auto var(--space-3);
+}
+
+.mockup figcaption {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.mockup figcaption span {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-small);
+}
+
+.coming-soon {
+  margin-top: var(--space-6);
+  padding: var(--space-5) var(--space-4);
+  background: var(--color-surface-tint);
+  border-radius: var(--radius-card);
+}
+
+.coming-soon h2 {
+  margin-top: 0;
+}
+
+.coming-soon p {
+  max-width: var(--size-content-width);
+}
+
+/* ---------- How to Play page and demo ---------- */
+
+.demo-section {
+  margin-top: var(--space-6);
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: var(--size-border-thin) solid var(--color-divider);
+  border-radius: var(--radius-card);
+}
+
+.demo-section h2 {
+  margin-top: 0;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--space-3);
+}
+
+.demo[hidden],
+[data-no-js][hidden] {
+  display: none;
+}
+
+.demo-status {
+  margin: 0;
+  min-height: 1.5em;
+  font-size: var(--font-size-h3);
+  font-weight: var(--font-weight-bold);
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(var(--size-touch-target), var(--size-board-square)));
+  gap: var(--space-2);
+}
+
+.square {
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  background: var(--color-background);
+  border: var(--size-border) solid var(--color-border);
+  border-radius: var(--radius-card);
+  color: var(--color-text);
+  cursor: pointer;
+}
+
+.square:hover {
+  background: var(--color-surface-tint);
+}
+
+.square[aria-disabled='true'] {
+  cursor: default;
+}
+
+.square[aria-disabled='true']:hover {
+  background: var(--color-background);
+}
+
+.square svg {
+  width: 60%;
+  height: 60%;
+}
+
+.square .mark-o {
+  color: var(--color-primary);
+}
+
+/* Winning squares: a color, a thick outline, and a striped pattern,
+   so the line is visible without relying on color alone. */
+.square.is-winner,
+.square.is-winner:hover {
+  background: repeating-linear-gradient(
+    45deg,
+    var(--color-accent),
+    var(--color-accent) var(--space-2),
+    var(--color-accent-soft) var(--space-2),
+    var(--color-accent-soft) var(--space-3)
+  );
+  border-color: var(--color-text);
+  border-width: var(--size-border-thick);
+}
+
+.square.is-winner .mark-o {
+  color: var(--color-text);
+}
+
+/* ---------- Support page ---------- */
+
+.faq h2 {
+  font-size: var(--font-size-h3);
+  margin-top: var(--space-5);
+}
+
+/* ---------- Contact form ---------- */
+
+.contact-form {
+  max-width: var(--size-form-width);
+}
+
+.field {
+  margin-bottom: var(--space-4);
+}
+
+.field label {
+  display: block;
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-1);
+}
+
+.field-hint {
+  margin: 0 0 var(--space-1);
+  color: var(--color-text-muted);
+  font-size: var(--font-size-small);
+}
+
+.field-error {
+  margin: 0 0 var(--space-1);
+  color: var(--color-error);
+  font-weight: var(--font-weight-bold);
+}
+
+.field input,
+.field select,
+.field textarea {
+  display: block;
+  width: 100%;
+  min-height: var(--size-touch-target);
+  padding: var(--space-2) var(--space-3);
+  border: var(--size-border) solid var(--color-border);
+  border-radius: var(--radius-small);
+  background: var(--color-surface);
+  color: var(--color-text);
+  font: inherit;
+}
+
+.field textarea {
+  min-height: 12rem;
+  resize: vertical;
+}
+
+.field [aria-invalid='true'] {
+  border-color: var(--color-error);
+  border-width: var(--size-border-thick);
+}
+
+/* A hidden field that people never see, but spam programs often fill in. */
+.honeypot {
+  display: none;
+}
+
+.error-summary,
+.notice {
+  margin-bottom: var(--space-5);
+  padding: var(--space-4);
+  background: var(--color-surface);
+  border: var(--size-border-thick) solid var(--color-error);
+  border-radius: var(--radius-card);
+}
+
+.error-summary h2 {
+  margin-top: 0;
+  font-size: var(--font-size-h3);
+}
+
+.error-summary ul {
+  margin: 0;
+  padding-left: var(--space-4);
+}
+
+.error-summary a {
+  color: var(--color-error);
+  font-weight: var(--font-weight-bold);
+}
+
+.notice p {
+  margin: 0;
+}
+
+.notice-success {
+  border-color: var(--color-success);
+}
+
+.error-summary[hidden],
+.notice[hidden],
+.field-error[hidden] {
+  display: none;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  background: var(--color-text);
+  color: var(--color-on-primary);
+  font-size: var(--font-size-small);
+}
+
+.footer-inner {
+  max-width: var(--size-page-width);
+  margin: 0 auto;
+  padding: var(--space-5) var(--space-3);
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-1) var(--space-2);
+  list-style: none;
+  margin: 0 0 var(--space-3);
+  padding: 0;
+}
+
+.footer-links li + li {
+  margin-top: 0;
+}
+
+.footer-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: var(--size-touch-target);
+  padding: 0 var(--space-2);
+  color: var(--color-on-primary);
+  font-weight: var(--font-weight-bold);
+}
+
+.footer-links a:hover {
+  color: var(--color-on-primary);
+}
+
+.site-footer :focus-visible {
+  outline-color: var(--color-on-primary);
+}
+
+.site-footer p {
+  margin: 0 0 var(--space-2) var(--space-2);
+}
+
+/* ---------- Wider screens ---------- */
+
+@media (min-width: 760px) {
+  main,
+  .site-nav,
+  .footer-inner {
+    padding-left: var(--space-5);
+    padding-right: var(--space-5);
+  }
+
+  .hero {
+    grid-template-columns: 3fr 2fr;
+    padding: var(--space-6) 0;
+  }
+
+  .hero h1 {
+    font-size: var(--font-size-display);
+  }
+
+  .puzzle-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .demo-section {
+    padding: var(--space-5);
+  }
+}
+
+@media (min-width: 900px) {
+  .mockup-list {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* ---------- Reduced motion ---------- */
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}

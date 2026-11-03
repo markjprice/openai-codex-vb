@@ -1,0 +1,5 @@
+# Words to remove from the word wheel, in addition to the standard blocklist.
+# Add one word per line after you review the daily puzzles, then run:
+#   npm run words
+#   npm run puzzles
+# Lines starting with # are ignored.

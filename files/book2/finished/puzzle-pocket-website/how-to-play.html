@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- include: page-meta title="How to Play | Puzzle Pocket" description="Learn the rules of noughts and crosses, sliding numbers, and word wheel, and play a noughts and crosses demo in your browser." path="how-to-play.html" -->
+  </head>
+  <body>
+    <!-- include: site-header -->
+
+    <main id="main">
+      <div class="prose">
+        <h1>How to play</h1>
+        <p>
+          Each puzzle takes a minute to learn. Here are the rules, and a game of
+          noughts and crosses you can play right now.
+        </p>
+
+        <h2>Noughts and crosses</h2>
+        <ol>
+          <li>Two players share one device. X always goes first.</li>
+          <li>Take turns to place your mark in an empty square.</li>
+          <li>The first player to get three marks in a row, a column, or a diagonal wins.</li>
+          <li>If all nine squares are full and nobody has three in a row, it's a draw.</li>
+        </ol>
+      </div>
+
+      <section class="demo-section" id="demo" aria-labelledby="demo-heading">
+        <h2 id="demo-heading">Try noughts and crosses</h2>
+        <p>
+          Play with a friend on this device. Choose a square with a click, a tap, or
+          the Enter or Space key.
+        </p>
+
+        <!-- Shown until the demo's JavaScript loads. -->
+        <p data-no-js>
+          The playable demo needs JavaScript. You can still read the rules above and
+          play on paper.
+        </p>
+
+        <div class="demo" data-demo hidden>
+          <p class="demo-status" role="status" aria-live="polite" data-status></p>
+          <div class="board" role="group" aria-label="Noughts and crosses board" data-board></div>
+          <button type="button" class="button button-secondary" data-restart>
+            <!-- icon: rotate-ccw -->Restart
+          </button>
+        </div>
+      </section>
+
+      <div class="prose">
+        <h2>Sliding numbers</h2>
+        <ol>
+          <li>The grid holds numbered tiles and one empty space.</li>
+          <li>Tap a tile next to the empty space to slide it into the space.</li>
+          <li>Keep sliding until the tiles are in order, from 1 in the top left.</li>
+          <li>Try to finish in as few moves, and as little time, as you can.</li>
+        </ol>
+
+        <h2>Word wheel</h2>
+        <ol>
+          <li>The wheel has seven letters: six around the edge and one in the middle.</li>
+          <li>Make words of three letters or more. Every word must use the middle letter.</li>
+          <li>You can use each letter once in each word.</li>
+          <li>Find the word that uses all seven letters for a bonus.</li>
+        </ol>
+      </div>
+    </main>
+
+    <!-- include: site-footer -->
+    <script type="module" src="/src/demo/demo.js"></script>
+  </body>
+</html>

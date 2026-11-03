@@ -1,0 +1,17 @@
+Task: Create a website project in this folder using Vite with plain
+JavaScript, then build the Home page described in PRODUCT-BRIEF.md.
+
+Context: Use the text for the Home page from content/site-text.md, word for
+word. Use the font in assets/fonts and the mockups in assets/mockups.
+
+Limits:
+- Keep the existing content and assets folders unchanged.
+- Don't add navigation, other pages, or a final visual design yet.
+- Don't load anything from another website.
+- Use plain HTML and CSS for the page. Use no JavaScript on this page yet.
+
+Done when:
+- npm run dev starts a preview that shows the Home page.
+- Every sentence on the page matches content/site-text.md.
+- node_modules isn't committed.
+- You've explained each new file in one sentence.

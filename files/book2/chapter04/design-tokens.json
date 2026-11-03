@@ -1,0 +1,62 @@
+{
+  "color": {
+    "primary": "#0F6E6E",
+    "primary-strong": "#0B5555",
+    "on-primary": "#FFFFFF",
+    "accent": "#E8833A",
+    "accent-soft": "#FDEBDD",
+    "background": "#FAF8F5",
+    "surface": "#FFFFFF",
+    "surface-tint": "#E6F2F2",
+    "text": "#1F2328",
+    "text-muted": "#5B626B",
+    "border": "#6B737C",
+    "divider": "#E2DED7",
+    "error": "#B42318",
+    "success": "#1E7A3E"
+  },
+  "font": {
+    "body": "Atkinson Hyperlegible",
+    "fallback": "Verdana, Arial, sans-serif",
+    "size-small": "16px",
+    "size-body": "18px",
+    "size-h3": "22px",
+    "size-h2": "28px",
+    "size-h1": "40px",
+    "size-display": "56px",
+    "weight-regular": "400",
+    "weight-bold": "700",
+    "line-height-body": "1.5",
+    "line-height-heading": "1.2"
+  },
+  "space": {
+    "1": "4px",
+    "2": "8px",
+    "3": "16px",
+    "4": "24px",
+    "5": "32px",
+    "6": "48px",
+    "7": "64px"
+  },
+  "radius": {
+    "small": "6px",
+    "card": "12px",
+    "button": "999px"
+  },
+  "size": {
+    "touch-target": "44px",
+    "icon-small": "20px",
+    "icon": "28px",
+    "icon-large": "32px",
+    "icon-box": "56px",
+    "board-square": "96px",
+    "mockup": "280px",
+    "content-width": "70ch",
+    "form-width": "36rem",
+    "page-width": "1120px",
+    "focus-outline": "3px",
+    "border-thin": "1px",
+    "border": "2px",
+    "border-thick": "4px"
+  }
+}

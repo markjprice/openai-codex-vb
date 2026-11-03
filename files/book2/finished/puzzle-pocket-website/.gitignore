@@ -1,0 +1,16 @@
+# Packages are downloaded again by "npm install".
+node_modules/
+
+# The finished site is rebuilt from the project by "npm run build".
+dist/
+
+# Playwright's test reports and results.
+test-results/
+playwright-report/
+
+# Secrets, if a later project ever needs them.
+.env
+
+# Files created by the operating system
+.DS_Store
+Thumbs.db

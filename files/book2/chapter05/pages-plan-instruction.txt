@@ -1,0 +1,8 @@
+Plan how to add the How to Play, Support, Privacy, and Contact pages
+described in PRODUCT-BRIEF.md, using the text in content/site-text.md.
+
+Define the navigation bar and footer once, in src/components, and insert
+them into every page at build time. Mark the current page with
+aria-current="page". Mark every placeholder with [PLACEHOLDER].
+
+Done when every page appears in npm run dev and in npm run build.

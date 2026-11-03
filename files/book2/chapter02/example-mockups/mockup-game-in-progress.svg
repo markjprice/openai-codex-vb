@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 720" width="360" height="720" font-family="Atkinson Hyperlegible, Verdana, Arial, sans-serif">
+  <title>Puzzle Pocket mockup: a noughts and crosses game in progress</title>
+  <!-- Phone outline -->
+  <rect x="8" y="8" width="344" height="704" rx="44" fill="#1F2328"/>
+  <rect x="20" y="20" width="320" height="680" rx="34" fill="#FAF8F5"/>
+  <rect x="140" y="30" width="80" height="8" rx="4" fill="#1F2328"/>
+
+  <!-- Status bar and header -->
+  <text x="44" y="64" font-size="14" font-weight="700" fill="#1F2328">9:41</text>
+  <text x="44" y="108" font-size="16" font-weight="700" fill="#0F6E6E">‹ Puzzles</text>
+  <text x="44" y="146" font-size="24" font-weight="700" fill="#1F2328">Noughts and crosses</text>
+
+  <!-- Status message -->
+  <rect x="116" y="170" width="128" height="40" rx="20" fill="#E6F2F2"/>
+  <text x="180" y="197" font-size="18" font-weight="700" text-anchor="middle" fill="#1F2328">X's turn</text>
+
+  <!-- Board -->
+  <g fill="#FFFFFF" stroke="#D5E3E3" stroke-width="2">
+    <rect x="52" y="232" width="80" height="80" rx="12"/>
+    <rect x="140" y="232" width="80" height="80" rx="12"/>
+    <rect x="228" y="232" width="80" height="80" rx="12"/>
+    <rect x="52" y="320" width="80" height="80" rx="12"/>
+    <rect x="140" y="320" width="80" height="80" rx="12"/>
+    <rect x="228" y="320" width="80" height="80" rx="12"/>
+    <rect x="52" y="408" width="80" height="80" rx="12"/>
+    <rect x="140" y="408" width="80" height="80" rx="12"/>
+    <rect x="228" y="408" width="80" height="80" rx="12"/>
+  </g>
+  <!-- X in square 1 and square 9 -->
+  <g stroke="#1F2328" stroke-width="8" stroke-linecap="round">
+    <line x1="72" y1="252" x2="112" y2="292"/>
+    <line x1="112" y1="252" x2="72" y2="292"/>
+    <line x1="248" y1="428" x2="288" y2="468"/>
+    <line x1="288" y1="428" x2="248" y2="468"/>
+  </g>
+  <!-- O in square 3 and square 5 -->
+  <g fill="none" stroke="#0F6E6E" stroke-width="8">
+    <circle cx="268" cy="272" r="22"/>
+    <circle cx="180" cy="360" r="22"/>
+  </g>
+
+  <!-- Restart button -->
+  <rect x="120" y="520" width="120" height="48" rx="24" fill="#0F6E6E"/>
+  <text x="180" y="550" font-size="17" font-weight="700" text-anchor="middle" fill="#FFFFFF">Restart</text>
+
+  <text x="180" y="610" font-size="14" text-anchor="middle" fill="#5B626B">Two players, one phone</text>
+</svg>

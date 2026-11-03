@@ -1,0 +1,16 @@
+Task: Create an Expo project in this folder using the standard template,
+then replace the example screens with a single screen that says
+"Puzzle Pocket".
+
+Context: Read PRODUCT-BRIEF.md and AGENTS.md. Use Expo SDK [version], which
+the store version of Expo Go supports.
+
+Limits:
+- Keep PRODUCT-BRIEF.md, AGENTS.md, and the shared folder unchanged.
+- Don't add any screens, packages, or features beyond the template.
+
+Done when:
+- npx expo start shows a QR code without errors.
+- The single screen shows "Puzzle Pocket".
+- node_modules isn't committed, and you've committed the project.
+- You've explained the main files and folders in one sentence each.
