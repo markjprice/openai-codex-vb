@@ -1,0 +1,92 @@
+{
+  "name": "Puzzle Pocket — children's style",
+  "description": "Approved bright, playful style for children aged 9–12. Values are a design reference; they are not yet applied to the website.",
+  "colors": {
+    "primary": "#1749D1",
+    "accent": "#FFD447",
+    "background": "#F3F7FF",
+    "surface": "#FFFFFF",
+    "text": "#182033",
+    "link": "#1749D1",
+    "textOnPrimary": "#FFFFFF",
+    "textOnAccent": "#182033"
+  },
+  "typography": {
+    "headings": {
+      "fontFamily": "Fredoka",
+      "fallback": "sans-serif",
+      "fontWeight": 600,
+      "lineHeight": 1.2,
+      "sizesPx": { "h1": 48, "h1SmallScreen": 32, "h2": 32, "h3": 24 }
+    },
+    "body": {
+      "fontFamily": "Nunito",
+      "fallback": "sans-serif",
+      "fontWeight": 400,
+      "fontSizePx": 18,
+      "lineHeight": 1.6
+    },
+    "button": {
+      "fontFamily": "Nunito",
+      "fontWeight": 800,
+      "fontSizePx": 18,
+      "lineHeight": 1.5
+    },
+    "fonts": {
+      "license": "SIL Open Font License 1.1",
+      "storageDirectory": "assets/fonts",
+      "delivery": "Local files only; retain each font's license alongside it.",
+      "status": "Fredoka and Nunito are not yet installed in the project."
+    }
+  },
+  "spacing": {
+    "scalePx": [8, 16, 24, 32, 48, 64],
+    "inlineGapPx": 8,
+    "itemGapPx": 16,
+    "groupGapPx": 24,
+    "cardPaddingPx": 32,
+    "cardPaddingSmallScreenPx": 24,
+    "sectionGapPx": 48,
+    "largeSectionGapPx": 64
+  },
+  "radiiPx": { "small": 8, "highlight": 16, "card": 24, "button": 24 },
+  "components": {
+    "button": {
+      "minHeightPx": 48,
+      "paddingBlockPx": 16,
+      "paddingInlinePx": 24,
+      "background": "#1749D1",
+      "text": "#FFFFFF",
+      "hoverTreatment": "Underline the label; keep the same colors."
+    },
+    "link": { "color": "#1749D1", "textDecoration": "underline" },
+    "card": { "background": "#FFFFFF" },
+    "reward": { "background": "#FFD447", "text": "#182033" },
+    "focus": { "treatment": "Keep a visible keyboard focus outline; never remove it." }
+  },
+  "imagery": {
+    "style": "Flat cartoon illustrations and thick-outline icons in the palette colors",
+    "illustrationOutlineWidthPx": 4,
+    "iconStrokeWidthPx": 3,
+    "photosOfRealPeople": false
+  },
+  "motion": {
+    "default": "Static",
+    "flashing": false,
+    "prefersReducedMotion": "Disable all animations and transitions; use automatic rather than smooth scrolling."
+  },
+  "contrast": {
+    "minimumTextRatio": 4.5,
+    "method": "WCAG sRGB relative luminance; displayed ratios rounded to two decimals",
+    "approvedPairs": [
+      { "foreground": "#FFFFFF", "background": "#1749D1", "ratio": 7.22 },
+      { "foreground": "#1749D1", "background": "#FFFFFF", "ratio": 7.22 },
+      { "foreground": "#1749D1", "background": "#F3F7FF", "ratio": 6.72 },
+      { "foreground": "#182033", "background": "#FFFFFF", "ratio": 16.24 },
+      { "foreground": "#182033", "background": "#F3F7FF", "ratio": 15.12 },
+      { "foreground": "#182033", "background": "#FFD447", "ratio": 11.41 },
+      { "foreground": "#1749D1", "background": "#FFD447", "ratio": 5.07 }
+    ],
+    "usage": "Use approved text/background pairings only; recheck contrast when introducing new states or surfaces."
+  }
+}
