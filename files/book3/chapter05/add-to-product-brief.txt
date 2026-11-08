@@ -1,0 +1,20 @@
+## Sliding numbers
+A 4 by 4 board holds tiles numbered 1 to 15 and one empty space. Tapping a
+tile next to the empty space (above, below, left, or right) slides it into
+the space. The puzzle is solved when the tiles read 1 to 15 in order, left
+to right and top to bottom, with the empty space last.
+
+Not in this release:
+- Board sizes other than 4 by 4
+- Sliding several tiles at once
+- Hints or automatic solving
+
+Acceptance criteria:
+1. Tapping a tile next to the empty space moves it, and adds 1 to the
+   move count.
+2. Tapping any other tile does nothing, and the move count doesn't change.
+3. Every new game starts from a board that can be solved.
+4. A new game never starts already solved.
+5. The timer starts on the first move and pauses when the app is in the
+   background.
+6. When the board is solved, the results dialog shows the moves and time.

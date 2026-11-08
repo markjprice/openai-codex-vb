@@ -75,7 +75,4 @@ ATTRIBUTIONS.md.
 | Sonniss GDC Game Audio Bundles (https://sonniss.com/gameaudiogdc) | Large free bundles of professional sounds | A royalty-free license that allows use in games, without credit |
 | Make your own | A short beep or chime made in free audio software, such as Audacity (https://www.audacityteam.org) | Your own work, so no license is needed |
 
-The finished sample app uses three sounds made for this book from simple
-generated tones (`assets/sounds/move.wav`, `word.wav`, and `win.wav`), so they need no
-credit. Keep each file small: a short sound saved as WAV or M4A is a few
-kilobytes.
+Keep each file small: a short sound saved as WAV or M4A is a few kilobytes.
